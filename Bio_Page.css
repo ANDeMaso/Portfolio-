@@ -21,7 +21,6 @@ body{
   background-color: #12FFD0
 }
 .row{
-  width: 100%;
   height: 350px;
 }
 
@@ -49,13 +48,16 @@ color:black
 
 #menupicdiv{
   background-image: url(Menuoptionapp.PNG);
-  background-size: cover;
-  height: 300%
+  background-size: contain;
+  background-repeat: no-repeat;
+
 
 }
 #MITAPLOGO{
   background-image: url(MITAppInventorLogo.PNG);
   background-size: cover;
-  height: 200%
-  width: 100%
+  height: 200%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
